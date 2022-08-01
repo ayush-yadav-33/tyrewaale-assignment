@@ -1,0 +1,158 @@
+body{
+    background-color: #F9F9F9;
+    padding: 0;
+    margin: 0;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+.annoucement__container{
+    background-color: #000;
+    font-size: 13px;
+    color: #fff;
+    padding: 7px;
+}
+
+.header__container{
+    background-color: #fff;
+}
+.body_container{
+    height: 100vh;
+    width: 90vw;
+    margin: 2rem auto;
+    display: flex;
+}
+.body_container div{
+    width: fit-content;
+}
+.sub__container {
+    background-color: #fff; 
+    margin-right: 20px;
+    padding: 1rem;
+    height: 100vh;
+}
+.cards_container img{
+    height: 100px;
+    margin: 20px  0 0 0;    
+}
+.card__subchild2{
+    display: grid;
+}
+.cards_container{
+    background-color: #fff; 
+    display: flex;
+    height: fit-content;
+    padding: 2rem;
+}
+.card__subchild2 span{
+    font-size: 25px;
+    border-radius: 50%;
+    margin: 5px 0 5px 12px;
+    border: 1px solid rgb(182, 182, 182);
+    padding: 3px;
+}
+
+.card2__subchild2{
+    line-height: 10px;
+    margin: 0 0 0 1rem;
+    padding: 0 0 1rem 0;
+}
+.card2__subchild3{
+    border-bottom: 1px solid #D4D4D4;
+    border-top: 1px solid #D4D4D4;
+    margin-top:1rem;
+}
+.card2__subchild3 input{
+    width: 30px;
+    text-align: center;
+    padding: 5px;    
+
+}
+.card2__subchild3 button{
+    background-color: #1260CC;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.cart{
+    background-color: #E8E9EB;
+    padding: 5px;    
+}
+.cards__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+.card__badge{
+    position: absolute;
+    height: 20px;
+    width: 100px;
+    background-color: greenyellow;
+}
+
+.bottom__btn button{
+    width:6.5rem;
+    height:20px;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+    margin: 15px 0 0 0;
+}
+.card_main_container{
+    margin-left: 20px;
+}
+
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+}
+.header__logo{
+    margin-left: 18px;
+}
+.header__search{
+    display: flex;
+}
+.header__search input{
+    border: none;
+    background-color: #E8E9EB;
+    outline: none;
+    height: 2rem;
+    width: 30vw;
+    border-radius: 5px 0 0 5px;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    padding:  3px 10px;
+}
+
+.header__menu a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+}
+.header__search_icon{
+    background-color: orange;
+    padding: 6px;
+    border-radius: 0 5px 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .cards__container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .sub__container{
+        display: none;
+    }
+}
+@media screen and (max-width: 424px) {
+    .cards__container{
+        grid-template-columns: 1fr;
+    }
+    .header__menu{
+        display: none;
+    }
+}
